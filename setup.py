@@ -71,6 +71,7 @@ setup(
     include_package_data=True,
     extras_require={
         "coverage": [
+            "chanjo@git+https://git@github.com/Clinical-Genomics/chanjo.git@4.6.1",
             "chanjo-report",
             "pymysql",
         ],
