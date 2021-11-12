@@ -15,6 +15,14 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Enforce same individual ids, display names and affected status when updating a case
 - Display and download HPO gene panels' gene in italics
 - Improved documentation for connecting to loqusdb instances (including loqusdbapi)
+=======
+- Show AD on variants view for cancer SV (tumor and normal)
+- Cancer SV variants filter AD, AF (tumor and normal)
+- Hiding the variants score column also from cancer SVs, as for the SNVs
+### Changed
+- Enforce same case _id and display_name when updating a case
+- Enforce same individual ids, display names and affected status when updating a case
+- Display and download HPO gene panels' gene symbols in italics
 ### Fixed
 - Use of deprecated TextField after the upgrade of WTF to v3.0
 - Freeze to WTForms to version < 3
