@@ -29,9 +29,9 @@ RUN pip install --upgrade pip &&           \
         --editable .[coverage]
 
 # Build loqusdb
-RUN wget https://github.com/moonso/loqusdb/archive/v2.5.tar.gz &&  \
-    tar -xzf v2.5.tar.gz &&                                        \
-    cd loqusdb-2.5 &&                                              \
+RUN wget https://github.com/Clinical-Genomics/loqusdb/archive/refs/tags/2.5.2.tar.gz &&  \
+    tar -xzf 2.5.2.tar.gz &&                                       \
+    cd loqusdb-2.5.2 &&                                            \
 	pip wheel --no-cache-dir                                       \
 	          --wheel-dir /usr/src/app/loqusdb_wheels              \
 			  --editable .
