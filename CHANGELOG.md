@@ -19,6 +19,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Cancer SV variants filter AD, AF (tumor and normal)
 - Hiding the variants score column also from cancer SVs, as for the SNVs
 - A faster-built and lighter Docker image
+- Reduce complexity of `panels` endpoint moving some code to the panels controllers
 ### Fixed
 - Use of deprecated TextField after the upgrade of WTF to v3.0
 - Freeze to WTForms to version < 3
