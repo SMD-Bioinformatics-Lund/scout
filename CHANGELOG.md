@@ -10,6 +10,11 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Add an option to export cases with rerun monitoring enabled
 ### Changed
 ### Fixed
+
+## [4.44]
+### Added
+### Changed
+### Fixed
 - Fix filter variants by genes
 - Genes API endpoint to return a json formatted error when request is malformed
 
