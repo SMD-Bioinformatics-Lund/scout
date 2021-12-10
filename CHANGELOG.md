@@ -10,6 +10,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Add an option to export cases with rerun monitoring enabled
 ### Changed
 ### Fixed
+- Gene panel crashing on edit action
 
 ## [4.44]
 ### Added
