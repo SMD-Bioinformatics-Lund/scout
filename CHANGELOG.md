@@ -4,10 +4,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 About changelog [here](https://keepachangelog.com/en/1.0.0/)
 
+
 ## []
 ### Added
 - Add a toggle for melter rerun monitoring of cases
 - Add an option to export cases with rerun monitoring enabled
+### Changed
+### Fixed
+
+
+## [4.45]
+### Added
 ### Changed
 - Start Scout also when loqusdbapi is not reachable
 - Clearer definition of manual standard and custom inheritance models in gene panels
