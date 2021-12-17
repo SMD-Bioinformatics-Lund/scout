@@ -15,6 +15,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Updated the python config file documentation in admin guide
 - Updated Managed variant documentation in user guide
+- Case configuration parsing now uses Pydantic for improved typechecking and config handling
 ### Fixed
 - Validate uploaded managed variant file lines, warning the user.
 
