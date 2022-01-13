@@ -25,6 +25,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Validate uploaded managed variant file lines, warning the user.
 - Reduce code complexity (parse/ensembl.py)
+- Exporting validated variants with missing "genes" database key
 
 ## [4.45]
 ### Added
