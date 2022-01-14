@@ -22,6 +22,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Speed-up CI tests by caching installation of libs and splitting tests into randomized groups using pytest-test-groups
 - Improved LDAP login documentation
 - Use lib flask-ldapconn instead of flask_ldap3_login> to handle ldap authentication
+- Fix and simplify creating and editing of gene panels
 ### Fixed
 - Validate uploaded managed variant file lines, warning the user.
 - Reduce code complexity (parse/ensembl.py)
