@@ -25,11 +25,13 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Improved LDAP login documentation
 - Use lib flask-ldapconn instead of flask_ldap3_login> to handle ldap authentication
 - Fix and simplify creating and editing of gene panels
+- Simplified gene variants search code
 ### Fixed
 - Validate uploaded managed variant file lines, warning the user.
 - Reduce code complexity (parse/ensembl.py)
 - Exporting validated variants with missing "genes" database key
 - No results returned when searching for gene variants using a phenotype term 
+- Variants filtering by gene symbols file
 
 ## [4.45]
 ### Added
