@@ -31,8 +31,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Reassign MatchMaker Exchange submission to another user when a Scout user is deleted
 - Expose public API JSON gene panels endpoint, primarily to enable automated rerun checking for updates
 - Add utils for dictionary type
-- Filter institute cases using multiple HPO terms
-- Vulture GitHub action to identify and remove unused variables and imports
+- Cast MNVs to SNV
 ### Changed
 - Updated the python config file documentation in admin guide
 - Updated Managed variant documentation in user guide
