@@ -24,6 +24,9 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Export verified variants from all institutes when user is admin
 - Cancer coverage and QC report not found for demo cancer case
 - IGV browser crashing when file system with alignment files is not mounted
+- Pull request template instructions on how to deploy to test server
+- PDF Delivery report not showing Swedac logo
+- Fix code typos
 
 ## [4.47]
 ### Added
