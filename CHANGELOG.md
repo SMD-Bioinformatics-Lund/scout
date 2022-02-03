@@ -21,6 +21,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Missing delivery report in demo case
 - Export verified variants from all institutes when user is admin
 - Cancer coverage and QC report not found for demo cancer case
+- IGV browser crashing when file system with alignment files is not mounted
 
 ## [4.47]
 ### Added
