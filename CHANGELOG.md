@@ -17,16 +17,17 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Updated cancer "Coverage and QC report" example
 - Keep portrait orientation in PDF delivery report
 - Export delivery report to PDF using PDFKit
+- Export gene panel report to PDF using PDFKit
 ### Fixed
 - Reintroduced missing links to Swegen and Beacon and dbSNP in RD variant page, summary section
 - Demo delivery report orientation to fit new columns
 - Missing delivery report in demo case
 - Export verified variants from all institutes when user is admin
 - Cancer coverage and QC report not found for demo cancer case
-- IGV browser crashing when file system with alignment files is not mounted
 - Pull request template instructions on how to deploy to test server
 - PDF Delivery report not showing Swedac logo
 - Fix code typos
+- Loading spinner stuck after downloading a PDF gene panel report
 
 ## [4.47]
 ### Added
