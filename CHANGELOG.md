@@ -19,6 +19,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Gene-variants table size is now adaptive
 - Remove unused file upload on gene-variants page
 - Changed default hg19 genome for IGV.js to legacy hg19_1kg_decoy to fix a few problematic loci
+- Reduce code complexity (parse/ensembl.py)
 
 ## [4.49]
 ### Fixed
@@ -59,6 +60,10 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - PDF export of clinical and research HPO panels using PDFKit instead of Weasyprint
 - Export gene panel report to PDF using PDFKit
 - Removed WeasyPrint lib dependency
+<<<<<<< 924c12e116fdb51fa9bcb78706828f3b2d492bb6
+=======
+
+>>>>>>> CHANGELOG had aged a bit
 ### Fixed
 - Reintroduced missing links to Swegen and Beacon and dbSNP in RD variant page, summary section
 - Demo delivery report orientation to fit new columns
