@@ -18,6 +18,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Removed unused `add_compounds` param from variant controllers function
 - Gene-variants table size is now adaptive
 - Remove unused file upload on gene-variants page
+- Changed default hg19 genome for IGV.js to legacy hg19_1kg_decoy to fix a few problematic loci
 
 ## [4.49]
 ### Fixed
