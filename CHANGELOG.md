@@ -21,6 +21,8 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 - Remove unused file upload on gene-variants page
 - Changed default hg19 genome for IGV.js to legacy hg19_1kg_decoy to fix a few problematic loci
 - Reduce code complexity (parse/ensembl.py)
+- Only one phenotype condition type (OMIM or HPO) per variant is used in ClinVar submissions
+- ClinVar submission variant condition prefers OMIM over HPO if available
 
 ## [4.49]
 ### Fixed
