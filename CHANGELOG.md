@@ -25,6 +25,7 @@ About changelog [here](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Slightly smaller and improved layout of content in case PDF report
 - Relabel more cancer variant pages somatic for navigation
+- Unify caseS nav links
 - Removed unused `add_compounds` param from variant controllers function
 - Gene-variants table size is now adaptive
 - Remove unused file upload on gene-variants page
