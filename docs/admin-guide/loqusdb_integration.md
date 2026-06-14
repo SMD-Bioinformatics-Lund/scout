@@ -36,27 +36,25 @@ LOQUSDB_SETTINGS = {
   ..
 }
 ```
-The example above is showing the LOQUSDB_SETTINGS parameter as a dictionary containing 2 key/values, reflecting 2 eventual instances of loqusdb, one based on the executable binary file (option 1) and one reachable via REST API (option2). To reflect the infrastructure needs, it is possible to set as many connections to loqusdb instances as required.
+The example above is showing the LOQUSDB_SETTINGS parameter as a dictionary containing 2 key/values, reflecting 2 eventual instances of loqusdb, one based on the executable binary file (option 1) and one reachable via REST API (option 2). To reflect the infrastructure needs, it is possible to set as many connections to loqusdb instances as required.
 
-Please note that the key used to define each of these instances (in this case default and loqus_api) will be later used in Scout to switch among the available instances (Scout at the moment doesn't support using different loqusdb instance at the same time, and it will be only possible to use one at the time for each institute).
+Please note that the key used to define each of these instances (in this case default and loqus_api) will be later used in Scout to select among the available instances. One or more loqusdb instances can be selected for each institute. On variant pages, Scout queries each selected instance and displays local observations grouped by loqusdb instance ID.
 
 Note also that regardless of the number of loqusdb instances (key/values present in the LOQUSDB_SETTINGS file), **one dafault loqusdb instance should be present with key `default`**. This entails that if you are connecting to only one loqusdb instance, then it should be named `default`.
 
-## Switching between loqusdb instances from the institute settings in the Scout browser
+## Selecting loqusdb instances from the institute settings in the Scout browser
 
-This part applies only if more than one loqusdb instance is connected to Scout using the `LOQUSDB_SETTINGS` parameter present in the Scout config file. As mentioned before, **at the moment Scout support one loqusdb connection at the time for each single institute**.
-The first time that the Scout browser is launched, all institutes will be set to use the default loqusdb instance. **Configuring a different loqusdb instance than the default one is done at the institute level, and only admin users have the permissions to change these settings**.
+This part applies only if more than one loqusdb instance is connected to Scout using the `LOQUSDB_SETTINGS` parameter present in the Scout config file. The first time that the Scout browser is launched, all institutes will be set to use the default loqusdb instance. **Configuring one or more loqusdb instances for an institute is done at the institute level, and only admin users have the permissions to change these settings**.
 
 ### Configuring institute-specific loqusdb instance via institute settings
-From the institute page in the Scout browser, go to sidebar 'Settings'. Find 'LoqusDB id' and enter the configured id from
-config.py. Click Save. Your configuration is now active.
+From the institute page in the Scout browser, go to sidebar 'Settings'. Find 'LoqusDB id' and select one or more configured ids from config.py. Click Save. Your configuration is now active.
 
 ![Screenshot 2020-07-10 at 12 52 16](https://user-images.githubusercontent.com/1150065/87147271-9ea50600-c2ac-11ea-9f66-333b37783d52.png)
 
 
-It is additionally possible to configure a loqusdb instance for a given institute using the command line. Example:
+It is additionally possible to configure one or more loqusdb instances for a given institute using the command line. Repeat the option to select multiple instances. Example:
 ```
-scout update institute  <institute> --loqusdb_id <loqusdb_id>
+scout update institute <institute> --loqusdb_id <loqusdb_id> --loqusdb_id <another_loqusdb_id>
 ```
 
 
