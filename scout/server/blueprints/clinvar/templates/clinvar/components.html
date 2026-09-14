@@ -114,7 +114,7 @@
       {% elif not subm_obj.type %}
         <li class="breadcrumb-item"><button type="submit" name="update_submission" value="closed" class="btn btn-secondary btn-xs">Reset submitted</button></li>
       {% endif %}
-        <li class="breadcrumb-item"><button type="submit" name="update_submission" value="delete" class="btn btn-danger btn-xs">Delete submission from Scout</button></li>
+        <li class="breadcrumb-item"><button type="submit" name="update_submission" value="delete" class="btn btn-danger btn-xs" onclick="return confirm('Delete this submission from Scout and its associated submission data? This cannot be undone in Scout. Records already submitted to ClinVar will remain.');">Delete submission from Scout</button></li>
     </ol>
   </nav>
   {{ current_page_anchor(page) }}
